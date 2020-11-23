@@ -10,7 +10,7 @@ cmd=cmd['service'].value
 print(cmd)
 
 if cmd=="linux":
-    t= subprocess.getoutput("webbrowser.open_new_tab(192.168.54.248/linux_menu.html")
+    t= webbrowser.open_new_tab("http://192.168.54.248/linux_menu.html")
     print(t)
 if cmd=="aws":
     t=subprocess.getoutput("webbrowser.open_new_tab(192.168.54.248/aws_menu.html)")
