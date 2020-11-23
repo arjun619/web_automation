@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title> Home Page</title>
+	</head>
+	<body bgcolor="grey">
+		<h1> AUTOMATION PAGE </h1>
+		<br><br>
+		<form action="/cgi-bin/redirector.py">
+			<ol>
+				
+				<li>Perform linux commands<input type='radio' name='service' value='linux'></li>
+				<br>
+				<li>Perform AWS commands<input type='radio' name="service" value="aws"></li><br><br>
+			<input type='submit' value= 'Submit'>
+		</form>
+		<form action='/cgi-bin/py_ansible.py'>
+			Setup the automation files
+			<br><br>
+			<input type='submit' value='Add'>
+			</FORM>
+
